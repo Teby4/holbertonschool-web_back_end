@@ -5,5 +5,5 @@ from math import floor as math_floor
 
 
 def floor(n: float) -> float:
-    """floor"""
+    """floor function"""
     return math_floor(n)

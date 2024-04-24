@@ -3,5 +3,5 @@
 
 
 def to_str(n: str) -> str:
-    """to str"""
+    """to str function"""
     return str(n)
