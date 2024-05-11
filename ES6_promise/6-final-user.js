@@ -19,7 +19,7 @@ export default function handleProfileSignup(firstName, lastName, filename) {
     .catch((error) => [
       {
         status: 'rejected',
-        value: error,
+        value: error.message,
       },
     ]);
 }
